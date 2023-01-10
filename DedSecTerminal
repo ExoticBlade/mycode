@@ -1,0 +1,16 @@
+print("Welcome to DedSec Terminal")
+
+Password = input("Please Enter Password \n")
+
+if Password == "Admin123":
+  print("Welcome to DedSec Terminal")
+else:
+  exit()
+
+DedSec_Users = ("DedSec_Leader")
+
+Selected_User = input("Which User do You Want To See? \n DedSec_Leader ")
+if Selected_User == "DedSec_Leader":
+  print("Name: Redacted")
+else:
+  exit()
