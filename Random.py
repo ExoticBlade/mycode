@@ -7,7 +7,7 @@ if P == "Yes" or "yes":
 	MaxRange = int(input("Whats the Maximum Number? \n"))
 	Number = (random.randint(MinRange, MaxRange))
 	print("Your Number is:", Number)
-
-if P == "No" or "no":
+	
+else:
 	exit()
 	
