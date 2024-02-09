@@ -16,7 +16,6 @@ if answer == "s":
 if answer == "l":
 	ul = input("Enter User Name\n")
 	lpwd = getpass.getpass(prompt = "Enter User Password:\n")
-	if ul == "root" and lpwd == "hayden92009":
 		print("Succesfully Logged In")
 		exit()
 	print("User Logged in\n")
